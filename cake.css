@@ -153,7 +153,7 @@ h1 {
 }
 
 .signature {
-	animation: fade-up 700ms ease-out 1.2s both;
+	animation: fade-up 700ms ease-out 4.1s both;
 }
 
 @keyframes card-arrives {
@@ -200,7 +200,7 @@ h1 {
 	50% { transform: translateX(calc(-50% - 0.16rem)) scale(0.98, 1.14); }
 	75% { transform: translateX(calc(-50% + 0.1rem)) scale(1.08, 0.96); }
 	100% { transform: translateX(calc(-50% - 0.06rem)) scale(0.95, 1.06); }
-}
+}   
 
 @media (prefers-reduced-motion: reduce) {
 	*:not(.fire),
